@@ -115,11 +115,17 @@
           </div>
 
           <!-- Description -->
-          <div class="col-md-3">
+          <div class="row mb-5">
+            <div class="col-md-12">
+                {{ listing.description }}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
           <div class="card mb-3">
-            <img class="card-img-top" src="{{ listing.host.photo.url}}" alt="">
+            <img class="card-img-top" src="{{ listing.host.photo.url }}" alt="">
             <div class="card-body">
-              <h5 class="card-title">Property Host</h5>
+              <h5 class="card-title">Retreat Manager</h5>
               <h6 class="text-secondary">{{ listing.host }}</h6>
             </div>
           </div>
