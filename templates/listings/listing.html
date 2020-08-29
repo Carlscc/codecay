@@ -99,7 +99,7 @@
                   <span class="float-right">£{{ listing.price }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-bed"></i> Bedrooms:
+                  <i class="fas fa-bed"></i> Bed:
                   <span class="float-right">{{ listing.bedrooms }}</span>
                 </li>
               </ul>
@@ -107,13 +107,13 @@
             <div class="col-md-6">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item text-secondary">
-                 <i class="far fa-sun"></i> Outdoor space: <span class="float-right>"{{ listing.outdoor|yesno:"Y,N" }}</span>
+                 <i class="far fa-sun"></i> Outdoor space: <span class="float-right">{{ listing.outdoor|yesno:"Y,N" }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                    <i class="fas fa-clock"></i> Listing date: {{ listing.list_date }}</div>
+                    <i class="fas fa-clock"></i> Listing date: <span class="float-right">{{ listing.list_date }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-bed"></i> Host: <span class="float-right">{{ listing.host }}</span>
+                  <i class="fas fa-key"></i> Retreat Manager: <span class="float-right">{{ listing.host }}</span>
                 </li>
               </ul>
             </div>

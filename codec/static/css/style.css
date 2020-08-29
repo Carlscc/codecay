@@ -5,14 +5,19 @@ img {
   width: 100%; }
 
 .logo {
-  width: 80px; }
+  width: 130px; }
 
 .navbar {
   opacity: 0.9;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .social a {
   margin-right: 0.4rem; }
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #3da9fc;
+}
 
 #showcase {
   background: url(../img/station4.jpg) no-repeat center;
@@ -46,11 +51,14 @@ img {
     left: 0;
     min-height: 100%;
     width: 100%;
-    background: #d8eefe;
-   }
+    background: #d8eefe; }
+
+p.service-intro {
+  color: #5f6c7b;
+}
 
 #showcase-inner {
-  background: url(../img/station4.jpg) no-repeat center;
+  background: url(../img/station3.jpg) no-repeat center;
   position: relative;
   overflow: hidden;
   min-height: 200px; }
