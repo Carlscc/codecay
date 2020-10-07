@@ -7,4 +7,4 @@ local_settings.py
 venv
 /static
 settings.py
-
+.vscode
