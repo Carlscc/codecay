@@ -1,6 +1,6 @@
 # CODENV
 
-[CODENV](http://codenv.co) is a property management application built with Django and PostgresQL, and deployed with Gunicorn & Nginx (Digital Ocean). This example showcases fictional 'code retreats', a wishlist of locations to finish projects in comfort and peace. 
+[CODENV](http://codenv.co) is a property management application built with Django and PostgreQQL, and deployed with Gunicorn & Nginx (Digital Ocean). This example showcases fictional 'code retreats', a wishlist of locations to finish projects in comfort and peace. 
 
 ## Features:
 
