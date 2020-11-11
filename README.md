@@ -1,6 +1,6 @@
 # CODENV
 
-[CODENV](http://codenv.co) is a property management application built with Django and PostgreSQL, and deployed with Gunicorn & Nginx (Digital Ocean). 
+[CODENV](http://64.227.32.210/) is a property management application built with Django and PostgreSQL, and deployed with Gunicorn & Nginx (Digital Ocean). 
 
 ## Features:
 
